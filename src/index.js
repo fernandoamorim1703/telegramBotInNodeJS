@@ -11,7 +11,7 @@ const pool = new Pool ({
     host: '192.168.0.45'
 });
 
-const TOKEN = '5117917046:AAHlgXUf_IxDV9wDBq0pOODULxZn2fj8dzU';
+const TOKEN = 'TOKEN HERE';
 const bot = new Telegraf(TOKEN);
 
 bot.command('guardarRendimento', async ctx => {
